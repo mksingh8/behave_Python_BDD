@@ -20,6 +20,6 @@ Feature: Google Search
       | black wine  |
       | orange wine |
 
-#    To generate the allure report, use following commands
+#  To generate the allure report, use following commands
 #  behave -f allure_behave.formatter:AllureFormatter -o reports/ features
 #  then run allure serve reports/
