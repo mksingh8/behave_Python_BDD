@@ -10,7 +10,6 @@ def step_impl(context, searchTxt):
 
 @then(u'verify the page title has Google Search')
 def step_impl(context):
-    # assert "Google Search" in context.driver.get_title()
-    assert "Google Search" in context.driver.title
+    assert "Google Search" in context.driver.get_title()
 
 
